@@ -1,0 +1,19 @@
+<header>
+  <nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <a href="/" class="navbar-brand"><img class="logo mx-3" src="assets/acmlogo.png" alt="ACM User Manager Logo" />ACM User Manager</a>
+    <div class="navbar-nav">
+      <a routerLink="/" class="nav-item nav-link">Home</a>
+      <a routerLink="/about" class="nav-item nav-link">Documentation</a>
+    </div>
+  </nav>
+</header>
+<div class="container-fluid">
+  <div class="container-lg">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<footer>
+  <hr />
+  <div id="copy" class="mx-2">&copy; ACM@UIC 2021-2022</div>
+</footer>
